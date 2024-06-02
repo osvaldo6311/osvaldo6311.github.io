@@ -1,0 +1,33 @@
+*{margin: auto; padding: 0; font-family: 'Times New Roman', Times, serif;}
+body{ background-image: url(hura2.jpg); background-repeat:no-repeat; background-attachment: fixed; background-size:100%; }
+
+/*cabecera*/
+header{ font-size:300%; color: white;}
+/*header*/
+nav {background-color:#250F41 ; min-height: 2em; border: 3px double #9883ff;}
+nav p{display: inline;}
+nav a:link, nav a:visited {text-decoration:none; color:#3f14ff; background-color: #c6baff; margin: 1em; font-size:xx-large; font-weight: 1000;} 
+nav a:hover, nav a:active {text-decoration: none; color: #2f00ff; background-color: #bcafff; margin: 0.3em;}
+
+/*seccion y articulos*/
+section{width: 75%; background-color: #004278; float: left; border: 3px double black;}
+section h1{text-align: center; padding: 0.5em; color: #85C1E9; font-size: 2em}
+
+article{margin: 0.5em; background-color: #EAF2F8;border: 3px outset #43188D; font-size: larger;}
+article p{text-align:left; color: #250F41;}
+
+/*publicidad; aside*/
+
+aside{width: 19.5%; float:right;}
+aside{margin: 20px; padding: 10px; border: 4px solid red; background-color: #85C1E9;} 
+aside h1{font-size: 2.2em; text-align: center; padding: 0.2em 0em; color: #250F41; background-color: red;}
+aside h2{font-size: 1.8em; text-align: center; padding: 0.5em 0em;color: #184b8d;}
+aside p{font-size: 1.2em; padding: 0.2em 1em;}
+
+/*pie: footer*/
+footer{clear: both; background-color: #226FA3; }
+footer a:link, footer a:visited {color: #C6BAFF;}
+footer a:hover, footer a:active {color: #9883ff;}
+footer h1{text-align: center; font-size: 2.5em; color: rgb(172, 243, 234); padding: 0.7em;}
+footer h2{font-size: 2.2em; text-align: center; padding: 0.4em;color: rgb(236, 215, 121);}
+footer p{font-size: 1.9em; text-decoration: none; color: rgb(243, 187, 187);}
